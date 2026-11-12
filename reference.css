@@ -729,7 +729,7 @@ p {
     display: inline-flex;
     color: #fff;
     position: absolute;
-    right: var(--content-gutter, 48px);
+    right: 0;
     top: 35px;
     bottom: auto;
     margin-top: -25px;
