@@ -614,7 +614,7 @@ p {
     margin: 0;
     padding: 0;
 }
-.product-intro p, .about-heading p, .resource-head p, .audience-routes header p {
+.product-intro p, .about-heading p, .resource-head p, .audience-routes header p, .range-heading p, .news-heading p {
     max-width: 56ch;
     margin: 0 auto 0;
     text-align: center;
@@ -738,3 +738,6 @@ p {
   .news-heading { flex-direction: column; align-items: center; }
   .news-heading>a.button { position: static; margin-top: 0; }
 }
+
+/* News heading: stack heading and intro paragraph */
+.news-heading { flex-direction: column; align-items: center; }
