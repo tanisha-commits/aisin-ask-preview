@@ -741,3 +741,13 @@ p {
 
 /* News heading: stack heading and intro paragraph */
 .news-heading { flex-direction: column; align-items: center; }
+
+/* Aftermarket range heading spacing */
+h2#range-title{margin-bottom:12px}.range-heading p{margin-bottom:42px}
+
+/* News heading spacing */
+.news-heading h2{white-space:nowrap;margin:0}
+section#updates .news-heading p{margin-top:12px;margin-bottom:0}
+
+/* Footer CTA intro line */
+.footer-cta p{margin:12px 0 0;color:#cbd3e4;max-width:48ch}
